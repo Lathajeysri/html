@@ -1,0 +1,331 @@
+body
+{
+    box-sizing: border-box;
+}
+.header
+{
+    background-color: white;
+    display: flex;
+    justify-content:space-between;
+    color: rgb(11, 13, 17);
+}
+.logo
+{
+    margin-left: 10px;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+.menulist
+{
+    display: flex;
+}
+.menulist li{
+    margin: 15px;
+    list-style: none;
+    text-align: center;
+    word-spacing: normal;
+    }
+.menulist li a
+{
+    text-decoration: none;
+    color: rgb(2, 8, 15);
+}
+.button
+{
+    padding: 8px 10px ;
+   border-radius: 5px;
+   background-color: orangered;
+   font-weight: bold;
+border:none;
+color:white;
+}
+
+.upper
+{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    object-fit: contain;
+}
+.Explore
+{
+  width: 97px;
+  height: 38px;
+  margin: 0 501px 27px 500px;
+  font-family: RobotoSlab-Regular_;
+  font-size: 26px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.46;
+  letter-spacing: normal;
+  color: var(--black);
+}
+.box
+{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+
+}
+.rectangle1
+{
+  width: 350px;
+  height: 165px;
+  margin: 0 24px 0 0;
+  padding: 32px 10px;
+  border-radius: 5px;
+  border: solid 1px pink;
+  background-color: pink;
+}
+.activity
+{
+    width: 300px;
+  height: 28px;
+  margin: 0 auto;
+  font-family: RobotoSlab-Regular_;
+  font-size: 19px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #c0716f;
+}
+.rectangle2
+{
+    width: 350px;
+    height: 165px;
+    margin: 0 24px;
+    padding: 31px 10px;
+    border-radius: 5px;
+    border: solid 1px lightblue;
+    background-color: lightblue;
+}
+.FIN
+{
+    width: 179px;
+  height: 28px;
+  margin: 0 75px 25px 76px;
+  font-family: RobotoSlab-Regular_;
+  font-size: 22px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #6cb4af;
+}
+.rectangle3
+{
+    width: 350px;
+  height: 165px;
+  margin: 0 0 0 24px;
+  padding: 31px 10px;
+  border-radius: 5px;
+  border: solid 1px lightgreen;
+  background-color: lightgreen;
+}
+.Awareness{
+    width: 215px;
+    height: 28px;
+    margin: 0 58px 25px 57px;
+    font-family: RobotoSlab-Regular_;
+    font-size: 22px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #abb07f;
+}
+.box1
+{
+    width: 1100px;
+  height: 200px;
+  margin:25px;
+  padding: 110px;
+  background-color: rgb(250, 214, 210);
+}
+.About
+{
+    width: 215px;
+  height: 31px;
+  margin: 0 433px 25px 432px;
+  font-family: RobotoSlab-Regular_;
+  font-size: 26px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.46;
+  letter-spacing: normal;
+  color: black;
+}
+.Welcome
+{
+    width: 316px;
+    height: 23px;
+    margin: 25px 382px 8px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.79;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--black);
+}
+.explain
+{
+    width: 1080px;
+    height: 50px;
+    margin: 8px 0 10px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.79;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--black);
+}
+.Vision
+{
+    width: 60px;
+  height: 20px;
+  margin: 10px 510px 9px;
+  font-family: RobotoSlab-Regular_;
+  font-size: 26px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.39;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--black);
+}
+.vision1
+{
+    width: 1080px;
+  height: 50px;
+  margin: 9px 0 0;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.79;
+  letter-spacing: normal;
+  text-align: center;
+  color: var(--black);
+}
+.Features
+{
+    width: 113px;
+  height: 31px;
+  margin: 600px;
+  font-family: RobotoSlab-Regular_;
+  font-size: 26px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.46;
+  letter-spacing: normal;
+  color: var(--black);
+  text-align: center;
+}
+.box2
+{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+.Announcement
+{
+  width: 193px;
+  height: 31px;
+  margin: 600px;
+  font-family: RobotoSlab-Regular_;
+  font-size: 26px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.46;
+  letter-spacing: normal;
+  color: var(--black);
+}
+.box3
+{
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+}
+.box4
+{
+  background-color: rgb(250, 233, 236);
+  height: 431px;
+  width: auto;
+}
+.our
+{
+  text-align: center;
+}
+.innerbox
+{
+  display: flex;
+  width: 150%;
+  margin: 0 auto;
+}
+.left
+{
+  width: 570px;
+  height: 35px;
+  margin: 0 0 22px;
+  font-family: Inter;
+  font-size: 21px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+  color: var(--black);
+  text-align: center;
+  margin-top: 85px;
+}
+.right
+{
+  width: 363px;
+  height: 299px;
+  margin: 0 0 0 88px;
+  object-fit: contain;
+}
+.Clients
+{
+  text-align: center;
+}
+.Contact{
+  text-align: center;
+}
+.left1
+{
+  width: 50%;
+}
+.submit
+{
+  color: white;
+  background-color: #2d1a4f;
+}
+.Cancel
+{
+  color:w#2d1a4f ;
+}
+.last
+{
+  text-align: center;
+  background-color: #2d1a4f;
+  height: 50px;
+  color: white;
+}
